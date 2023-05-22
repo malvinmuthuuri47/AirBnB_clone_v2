@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''A simple Flask web application.'''
-from flask import Flask
+from flask import Flask, redirect, url_for
 
 app = Flask(__name__)
 
